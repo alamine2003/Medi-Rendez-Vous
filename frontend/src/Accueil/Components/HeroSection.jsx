@@ -16,7 +16,7 @@ const HeroSection = () => {
         </p>
         <div className="flex flex-col md:flex-row justify-center gap-4 animate-fade-in-up-delay">
           <Link
-            to="/register?role=patient" // Le paramètre `role` peut être utile pour la page d'inscription
+            to="/patient-portal"
             className="bg-white text-blue-600 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition duration-300 shadow-xl"
           >
             Je suis Patient
